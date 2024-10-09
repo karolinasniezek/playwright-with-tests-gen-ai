@@ -1,0 +1,10 @@
+image: node:20
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Test
+            caches:
+              - node
+            script:
+              - echo "tests are runnig"
