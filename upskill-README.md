@@ -75,8 +75,8 @@ Playwright: [Introduction to Playwright](https://testautomationu.applitools.com/
 	•	Implement tests for creating, editing, and deleting articles and tags.
 
 	•	Validate that tags are properly linked to articles.
-
-  **Visual Regression Testing for Login:**
+	
+	**Visual Regression Testing for Login:**
 
 	•	Capture baseline screenshots for login page UI.
 
