@@ -2,7 +2,13 @@
 
 ## Introduction
 
-You are joining the team as a replacement for the outgoing automation tester. The team is working on a project for the client, which deals with live blogging. The goal of the project is to create an application that will allow people to share their knowledge. The client wanted regression tests to be automated and test scenarios to be written using BDD, and to be able to test the front-end separately from the backend on locked data using Hooks. W ramach testów automatycznych zostłony utworzony i skonfigurowany framework oraz oświęcie pierwsze scenarye testowe. Kolejnym krokiem jaki pałydny połyżyj jest automatyzacja ukonczynych funkionalyści appliqué.
+You are steppinh into the role of an automation tester, filling the position left vacant by a departing team member. The team is currently working on a project for a client that specializes in live blogging, aiming to develop an application that facilitates knowledge sharing among its users.
+
+The client requires that regression tests be automated. Additionally, it is essential to test the front end separately from the back end using mocked data with Hooks. Moreover, a new suite of API and Visual Regression tests needs to be incorporated.
+
+As part of the automated testing efforts, a framework has been established and configured, and initial test scenarios have been developed. The next step is to automate the completed functionalities of the application.
+
+Furthermore, all written tests must be integrated into the CI/CD pipeline to ensure continuous testing and seamless deployment.
  
 As part of the automated testing, the framework was created and configured, and the first test scenarios were created. The next step that needs to be taken is to automate the completed application functionalities.
 
