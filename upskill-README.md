@@ -2,15 +2,13 @@
 
 ## Introduction
 
-You are steppinh into the role of an automation tester, filling the position left vacant by a departing team member. The team is currently working on a project for a client that specializes in live blogging, aiming to develop an application that facilitates knowledge sharing among its users.
+You are stepping into the role of an automation tester, filling the position left vacant by a departing team member. The team is currently working on a project for a client that specializes in live blogging, aiming to develop an application that facilitates knowledge sharing among its users.
 
-The client requires that regression tests be automated. Additionally, it is essential to test the front end separately from the back end using mocked data with Hooks. Moreover, a new suite of API and Visual Regression tests needs to be incorporated.
+The client requires that regression tests must be automated. Additionally, it's essential to test the frontend separately from the backend using mocked data with Hooks. What's more, a new suite of API and Visual Regression tests needs to be incorporated.
 
-As part of the automated testing efforts, a framework has been established and configured, and initial test scenarios have been developed. The next step is to automate the completed functionalities of the application.
+As a part of the automated testing efforts, a framework has been established and configured, and initial test scenarios have been developed. The next step is to automate the rest of the applications functionalities.
 
 Furthermore, all written tests must be integrated into the CI/CD pipeline to ensure continuous testing and seamless deployment.
- 
-As part of the automated testing, the framework was created and configured, and the first test scenarios were created. The next step that needs to be taken is to automate the completed application functionalities.
 
 ## General description
 
