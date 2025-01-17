@@ -1,7 +1,10 @@
 enum Routes {
   Login = '**/login',
-  Articles = '**/articles/*',
-  Comments = '**/articles/*/comments',
+  Users = '**/api/users',
+  Boards = '**/api/boards',
+  Board = '**/api/boards/*',
+  Lists = '**/api/lists/*',
+  Tasks = '**/api/tasks/*',
 }
 
 export default Routes;

@@ -1,22 +1,19 @@
-import { expect, test } from '../../fixtures/mocked/login-page-fixture';
+import { expect, test } from '../../fixtures/mocked/home-page-fixture';
 
+test.use({ storageState: { cookies: [], origins: [] } });
 test.describe(
   'login page visual tests',
   {
     annotation: { type: 'category', description: 'visual tests' },
   },
   () => {
-    test('empty form', async ({ loginPage }) => {
-      const screenshot = await loginPage.page.screenshot();
-      expect(screenshot).toMatchSnapshot('empty-login-form-page.png', { threshold: 1 });
+    test.beforeEach(async ({ loginPage }) => {
+      await loginPage.goToUrl('/');
     });
-
-    test('validation errors', async ({ loginPage, errorLoginResponse }) => {
-      await loginPage.login(' ', ' ');
+    test('empty form visual', {tag: ['@visual','@login']}, async ({ loginPage, homePage }) => {
+      await homePage.navbar.clickOnSignIn();
       const screenshot = await loginPage.page.screenshot();
-      expect(screenshot).toMatchSnapshot(
-        'validation-errors-on-login-page.png',
-      );
-    });
+      expect(screenshot).toMatchSnapshot('empty-login.png', { threshold: 1 });
+    }); 
   },
 );

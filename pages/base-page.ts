@@ -15,6 +15,10 @@ export class BasePage {
     return this.page.url();
   }
 
+  async refresh() {
+    return this.page.reload();
+  }
+
   async goToUrl(url: string) {
     await this.page.goto(url, { waitUntil: 'domcontentloaded' });
   }
