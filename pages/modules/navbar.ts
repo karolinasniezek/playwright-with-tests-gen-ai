@@ -5,7 +5,7 @@ export class Navbar {
   readonly signInLink: Locator;
 
   constructor(page: Page) {
-    this.signInLink = page.locator('a[href="/login"]');
+    this.signInLink = page.getByTestId('login-menu');
   }
 
   async clickOnSignIn() {

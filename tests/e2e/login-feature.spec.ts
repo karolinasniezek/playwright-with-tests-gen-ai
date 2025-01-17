@@ -1,4 +1,7 @@
+import errorMessages from '../../consts/errorMessages';
 import { expect, test } from '../fixtures/pages-fixture';
+
+test.use({ storageState: { cookies: [], origins: [] } });
 
 test.describe(
   'login page tests',
@@ -10,11 +13,10 @@ test.describe(
       await loginPage.goToUrl('/');
     });
 
-    // test skipped as used credentials are not valid
-    test('login with valid user', async ({ loginPage, homePage }) => {
+    test('create user - no pass', {tag: ['@e2e','@login'],}, async ({ loginPage, homePage }) => {
       await homePage.navbar.clickOnSignIn();
-      await loginPage.login('theuser@yahoo.com', 'pass');
-      expect(homePage.feedTabs.first()).toHaveText('Your feed');
+      await loginPage.createUser('theuser@yahoo.com', '');
+      await expect(loginPage.registerErrorBox).toHaveText(errorMessages.emailPasswordRequired);
     });
   },
 );

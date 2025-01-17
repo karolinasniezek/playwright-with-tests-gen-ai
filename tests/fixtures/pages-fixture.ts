@@ -1,24 +1,25 @@
-import { ArticlePage } from '../../pages/article-page';
 import { HomePage } from '../../pages/home-page';
+import { BoardPage } from '../../pages/board-page';
 import { LoginPage } from '../../pages/login-page';
 import { test as base } from '@playwright/test';
 
 type PagesFixture = {
   loginPage: LoginPage;
   homePage: HomePage;
-  articlePage: ArticlePage;
+  boardPage: BoardPage;
 };
 
-export const test = base.extend<PagesFixture>({
+let test = base.extend<PagesFixture>({
   loginPage: async ({ page }, use) => {
     await use(new LoginPage(page));
   },
   homePage: async ({ page }, use) => {
     await use(new HomePage(page));
   },
-  articlePage: async ({ page }, use) => {
-    await use(new ArticlePage(page));
+  boardPage: async ({ page }, use) => {
+    await use(new BoardPage(page));
   },
 });
 
+export { test };
 export { expect } from '@playwright/test';

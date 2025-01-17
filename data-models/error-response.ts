@@ -1,8 +1,8 @@
 export class ErrorResponse {
-  errors: { [key: string]: string[] };
+  error: string;
 
   constructor() {
-    this.errors = {};
+    this.error = '';
   }
 }
 
@@ -13,18 +13,8 @@ export class ErrorResponseBuilder {
     this.errorResponse = new ErrorResponse();
   }
 
-  withError(key: string, message: string) {
-    if (!this.errorResponse.errors[key]) {
-      this.errorResponse.errors[key] = [];
-    }
-    this.errorResponse.errors[key].push(message);
-    return this;
-  }
-
-  withLoginError() {
-    this.errorResponse.errors = {
-      'email or password': ['is invalid'],
-    };
+  withNoLoginDataError() {
+    this.errorResponse.error = 'Email and password are required';
     return this;
   }
 
