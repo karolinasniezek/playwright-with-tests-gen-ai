@@ -6,7 +6,6 @@
     "allowJs": true,
     "baseUrl": "./"
   },
-  "include": [
-    "**/*.ts"
-  ]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist", "*.js"]
 }

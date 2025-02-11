@@ -180,10 +180,10 @@ module.exports = (req, res, next) => {
 
     let fstream;
     req.pipe(req.busboy);
-    req.busboy.on('file', (fieldname, file, filename) => {
-      fstream = fs.createWriteStream(
-        `${__dirname}/public/uploaded/${name}_${filename}`,
-      );
+    req.busboy.on('file', (fieldname, file, fileInfo) => {
+      const filename = fileInfo.filename;
+      const savePath = path.join(__dirname, 'public', 'uploaded', `${name}_${filename}`);
+      const fstream = fs.createWriteStream(savePath);
       file.pipe(fstream);
       fstream.on('close', () => {
         res.status(201).jsonp({ path: `/public/uploaded/${name}_${filename}` });
