@@ -1,13 +1,13 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 "use strict";
 
-function cov_15r2jlvhzv() {
-  var path = "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/board.js";
-  var hash = "aa14b42ce565543d8a7e4a95e25a34382e501a40";
+function cov_29oddkis4x() {
+  var path = "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/board.js";
+  var hash = "a7a4a12100259a15555050837f3743b2e5d8652a";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/board.js",
+    path: "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/board.js",
     statementMap: {
       "0": {
         start: {
@@ -2937,7 +2937,7 @@ function cov_15r2jlvhzv() {
       "10": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "aa14b42ce565543d8a7e4a95e25a34382e501a40"
+    hash: "a7a4a12100259a15555050837f3743b2e5d8652a"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -2946,31 +2946,31 @@ function cov_15r2jlvhzv() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_15r2jlvhzv = function () {
+    cov_29oddkis4x = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_15r2jlvhzv();
+cov_29oddkis4x();
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
-var Vue = (cov_15r2jlvhzv().s[0]++, require('vue'));
-var moment = (cov_15r2jlvhzv().s[1]++, require('moment'));
-var axios = (cov_15r2jlvhzv().s[2]++, require('axios'));
-var vueDropzone = (cov_15r2jlvhzv().s[3]++, require('vue2-dropzone'));
-var VueSocketIOExt = (cov_15r2jlvhzv().s[4]++, require('vue-socket.io-extended'));
-var io = (cov_15r2jlvhzv().s[5]++, require('socket.io-client'));
-var socket = (cov_15r2jlvhzv().s[6]++, io('http://localhost:3000'));
-var _ = (cov_15r2jlvhzv().s[7]++, require('lodash'));
-var draggable = (cov_15r2jlvhzv().s[8]++, require('vuedraggable'));
-cov_15r2jlvhzv().s[9]++;
+var Vue = (cov_29oddkis4x().s[0]++, require('vue'));
+var moment = (cov_29oddkis4x().s[1]++, require('moment'));
+var axios = (cov_29oddkis4x().s[2]++, require('axios'));
+var vueDropzone = (cov_29oddkis4x().s[3]++, require('vue2-dropzone'));
+var VueSocketIOExt = (cov_29oddkis4x().s[4]++, require('vue-socket.io-extended'));
+var io = (cov_29oddkis4x().s[5]++, require('socket.io-client'));
+var socket = (cov_29oddkis4x().s[6]++, io('http://localhost:3000'));
+var _ = (cov_29oddkis4x().s[7]++, require('lodash'));
+var draggable = (cov_29oddkis4x().s[8]++, require('vuedraggable'));
+cov_29oddkis4x().s[9]++;
 Vue.use(VueSocketIOExt, socket);
-cov_15r2jlvhzv().s[10]++;
+cov_29oddkis4x().s[10]++;
 Vue.component('board', {
   template: '#trello-board',
   components: {
@@ -2979,94 +2979,94 @@ Vue.component('board', {
   },
   sockets: {
     listCreated: function listCreated(boardId, message) {
-      cov_15r2jlvhzv().f[0]++;
-      cov_15r2jlvhzv().s[11]++;
+      cov_29oddkis4x().f[0]++;
+      cov_29oddkis4x().s[11]++;
       // check that created list is in current board
       if (this.currentBoard.id === boardId) {
-        cov_15r2jlvhzv().b[0][0]++;
-        cov_15r2jlvhzv().s[12]++;
+        cov_29oddkis4x().b[0][0]++;
+        cov_29oddkis4x().s[12]++;
         // add list to board overview data
         this.currentBoard.lists.push(message);
         // add list to current list data
-        cov_15r2jlvhzv().s[13]++;
+        cov_29oddkis4x().s[13]++;
         this.$set(this.currentLists, message.id, []);
       } else {
-        cov_15r2jlvhzv().b[0][1]++;
+        cov_29oddkis4x().b[0][1]++;
       }
     },
     listUpdated: function listUpdated(id, message) {
-      cov_15r2jlvhzv().f[1]++;
+      cov_29oddkis4x().f[1]++;
       // find list with ID in board list and update its values
-      var updatedData = (cov_15r2jlvhzv().s[14]++, this.currentBoard.lists.map(function (x) {
-        cov_15r2jlvhzv().f[2]++;
-        cov_15r2jlvhzv().s[15]++;
-        return x.id === id ? (cov_15r2jlvhzv().b[1][0]++, _objectSpread(_objectSpread({}, x), message)) : (cov_15r2jlvhzv().b[1][1]++, x);
+      var updatedData = (cov_29oddkis4x().s[14]++, this.currentBoard.lists.map(function (x) {
+        cov_29oddkis4x().f[2]++;
+        cov_29oddkis4x().s[15]++;
+        return x.id === id ? (cov_29oddkis4x().b[1][0]++, _objectSpread(_objectSpread({}, x), message)) : (cov_29oddkis4x().b[1][1]++, x);
       }));
-      cov_15r2jlvhzv().s[16]++;
+      cov_29oddkis4x().s[16]++;
       this.currentBoard.lists = updatedData;
     },
     listDeleted: function listDeleted(id) {
-      cov_15r2jlvhzv().f[3]++;
+      cov_29oddkis4x().f[3]++;
       // update current board overview data
-      var updatedItem = (cov_15r2jlvhzv().s[17]++, this.currentBoard.lists.filter(function (list) {
-        cov_15r2jlvhzv().f[4]++;
-        cov_15r2jlvhzv().s[18]++;
+      var updatedItem = (cov_29oddkis4x().s[17]++, this.currentBoard.lists.filter(function (list) {
+        cov_29oddkis4x().f[4]++;
+        cov_29oddkis4x().s[18]++;
         return list.id !== id;
       }));
-      cov_15r2jlvhzv().s[19]++;
+      cov_29oddkis4x().s[19]++;
       this.currentBoard.lists = updatedItem;
       // update current lists data
-      var updatedList = (cov_15r2jlvhzv().s[20]++, _.pick(this.currentLists, id));
-      cov_15r2jlvhzv().s[21]++;
+      var updatedList = (cov_29oddkis4x().s[20]++, _.pick(this.currentLists, id));
+      cov_29oddkis4x().s[21]++;
       this.$set(this.currentLists, updatedList);
     },
     taskCreated: function taskCreated(listId, message) {
-      cov_15r2jlvhzv().f[5]++;
-      cov_15r2jlvhzv().s[22]++;
+      cov_29oddkis4x().f[5]++;
+      cov_29oddkis4x().s[22]++;
       // check that created task is in lists of current board
       if (listId in this.currentLists) {
-        cov_15r2jlvhzv().b[2][0]++;
-        cov_15r2jlvhzv().s[23]++;
+        cov_29oddkis4x().b[2][0]++;
+        cov_29oddkis4x().s[23]++;
         this.currentLists[listId].push(message);
       } else {
-        cov_15r2jlvhzv().b[2][1]++;
+        cov_29oddkis4x().b[2][1]++;
       }
     },
     taskUpdated: function taskUpdated(id, message) {
-      cov_15r2jlvhzv().f[6]++;
+      cov_29oddkis4x().f[6]++;
       // find list with ID in board list and update its values
-      var updatedData = (cov_15r2jlvhzv().s[24]++, this.currentLists[message.listId].map(function (x) {
-        cov_15r2jlvhzv().f[7]++;
-        cov_15r2jlvhzv().s[25]++;
-        return x.id === id ? (cov_15r2jlvhzv().b[3][0]++, _objectSpread(_objectSpread({}, x), message)) : (cov_15r2jlvhzv().b[3][1]++, x);
+      var updatedData = (cov_29oddkis4x().s[24]++, this.currentLists[message.listId].map(function (x) {
+        cov_29oddkis4x().f[7]++;
+        cov_29oddkis4x().s[25]++;
+        return x.id === id ? (cov_29oddkis4x().b[3][0]++, _objectSpread(_objectSpread({}, x), message)) : (cov_29oddkis4x().b[3][1]++, x);
       }));
-      cov_15r2jlvhzv().s[26]++;
+      cov_29oddkis4x().s[26]++;
       this.currentLists[message.listId] = updatedData;
-      cov_15r2jlvhzv().s[27]++;
+      cov_29oddkis4x().s[27]++;
       this.currentTask = message;
     },
     taskDeleted: function taskDeleted(id, message) {
-      cov_15r2jlvhzv().f[8]++;
+      cov_29oddkis4x().f[8]++;
       // update current list tasks
       // if (message.listId in this.currentLists) {
-      var updatedList = (cov_15r2jlvhzv().s[28]++, this.currentLists[message.listId].filter(function (task) {
-        cov_15r2jlvhzv().f[9]++;
-        cov_15r2jlvhzv().s[29]++;
+      var updatedList = (cov_29oddkis4x().s[28]++, this.currentLists[message.listId].filter(function (task) {
+        cov_29oddkis4x().f[9]++;
+        cov_29oddkis4x().s[29]++;
         return task.id !== id;
       }));
-      cov_15r2jlvhzv().s[30]++;
+      cov_29oddkis4x().s[30]++;
       this.currentLists[message.listId] = updatedList;
       // }
     },
     boardUpdate: function boardUpdate(id, message) {
-      cov_15r2jlvhzv().f[10]++;
-      cov_15r2jlvhzv().s[31]++;
+      cov_29oddkis4x().f[10]++;
+      cov_29oddkis4x().s[31]++;
       this.currentBoard.name = message.name;
     }
   },
   data: function data() {
-    cov_15r2jlvhzv().f[11]++;
-    cov_15r2jlvhzv().s[32]++;
+    cov_29oddkis4x().f[11]++;
+    cov_29oddkis4x().s[32]++;
     return {
       editTaskDescription: false,
       newListTitle: '',
@@ -3091,27 +3091,27 @@ Vue.component('board', {
   },
   created: function created() {
     var _this = this;
-    cov_15r2jlvhzv().f[12]++;
-    cov_15r2jlvhzv().s[33]++;
+    cov_29oddkis4x().f[12]++;
+    cov_29oddkis4x().s[33]++;
     axios.get("/api/boards/".concat(this.$route.params.id)).then(function (r) {
-      cov_15r2jlvhzv().f[13]++;
-      cov_15r2jlvhzv().s[34]++;
+      cov_29oddkis4x().f[13]++;
+      cov_29oddkis4x().s[34]++;
       return r.data;
     }).then(function (board) {
-      cov_15r2jlvhzv().f[14]++;
-      cov_15r2jlvhzv().s[35]++;
+      cov_29oddkis4x().f[14]++;
+      cov_29oddkis4x().s[35]++;
       _this.currentBoard = board;
-      cov_15r2jlvhzv().s[36]++;
+      cov_29oddkis4x().s[36]++;
       _this.currentBoardName = board.name;
-      cov_15r2jlvhzv().s[37]++;
+      cov_29oddkis4x().s[37]++;
       _this.loading = false;
-      cov_15r2jlvhzv().s[38]++;
+      cov_29oddkis4x().s[38]++;
       board.lists.forEach(function (list) {
-        cov_15r2jlvhzv().f[15]++;
-        cov_15r2jlvhzv().s[39]++;
+        cov_29oddkis4x().f[15]++;
+        cov_29oddkis4x().s[39]++;
         _this.$set(_this.currentLists, list.id, board.tasks.filter(function (task) {
-          cov_15r2jlvhzv().f[16]++;
-          cov_15r2jlvhzv().s[40]++;
+          cov_29oddkis4x().f[16]++;
+          cov_29oddkis4x().s[40]++;
           return task.listId === list.id;
         }));
       });
@@ -3119,105 +3119,105 @@ Vue.component('board', {
   },
   methods: {
     copyProperties: function copyProperties(content) {
-      cov_15r2jlvhzv().f[17]++;
-      var board = (cov_15r2jlvhzv().s[41]++, JSON.stringify(content, null, 2));
-      var clipboard = (cov_15r2jlvhzv().s[42]++, window.navigator.clipboard);
+      cov_29oddkis4x().f[17]++;
+      var board = (cov_29oddkis4x().s[41]++, JSON.stringify(content, null, 2));
+      var clipboard = (cov_29oddkis4x().s[42]++, window.navigator.clipboard);
       /*
         * fallback to older browsers (including Safari)
         * if clipboard API not supported
         */
-      cov_15r2jlvhzv().s[43]++;
-      if ((cov_15r2jlvhzv().b[5][0]++, !clipboard) || (cov_15r2jlvhzv().b[5][1]++, typeof clipboard.writeText !== 'function')) {
-        cov_15r2jlvhzv().b[4][0]++;
-        var textarea = (cov_15r2jlvhzv().s[44]++, document.createElement('textarea'));
-        cov_15r2jlvhzv().s[45]++;
+      cov_29oddkis4x().s[43]++;
+      if ((cov_29oddkis4x().b[5][0]++, !clipboard) || (cov_29oddkis4x().b[5][1]++, typeof clipboard.writeText !== 'function')) {
+        cov_29oddkis4x().b[4][0]++;
+        var textarea = (cov_29oddkis4x().s[44]++, document.createElement('textarea'));
+        cov_29oddkis4x().s[45]++;
         textarea.value = board;
-        cov_15r2jlvhzv().s[46]++;
+        cov_29oddkis4x().s[46]++;
         textarea.setAttribute('readonly', true);
-        cov_15r2jlvhzv().s[47]++;
+        cov_29oddkis4x().s[47]++;
         textarea.setAttribute('contenteditable', true);
-        cov_15r2jlvhzv().s[48]++;
+        cov_29oddkis4x().s[48]++;
         textarea.style.position = 'absolute';
-        cov_15r2jlvhzv().s[49]++;
+        cov_29oddkis4x().s[49]++;
         textarea.style.left = '-9999px';
-        cov_15r2jlvhzv().s[50]++;
+        cov_29oddkis4x().s[50]++;
         document.body.appendChild(textarea);
-        cov_15r2jlvhzv().s[51]++;
+        cov_29oddkis4x().s[51]++;
         textarea.select();
-        var range = (cov_15r2jlvhzv().s[52]++, document.createRange());
-        var sel = (cov_15r2jlvhzv().s[53]++, window.getSelection());
-        cov_15r2jlvhzv().s[54]++;
+        var range = (cov_29oddkis4x().s[52]++, document.createRange());
+        var sel = (cov_29oddkis4x().s[53]++, window.getSelection());
+        cov_29oddkis4x().s[54]++;
         sel.removeAllRanges();
-        cov_15r2jlvhzv().s[55]++;
+        cov_29oddkis4x().s[55]++;
         sel.addRange(range);
-        cov_15r2jlvhzv().s[56]++;
+        cov_29oddkis4x().s[56]++;
         textarea.setSelectionRange(0, textarea.value.length);
-        cov_15r2jlvhzv().s[57]++;
+        cov_29oddkis4x().s[57]++;
         document.execCommand('copy');
-        cov_15r2jlvhzv().s[58]++;
+        cov_29oddkis4x().s[58]++;
         document.body.removeChild(textarea);
-        cov_15r2jlvhzv().s[59]++;
+        cov_29oddkis4x().s[59]++;
         return Promise.resolve(true);
       } else {
-        cov_15r2jlvhzv().b[4][1]++;
+        cov_29oddkis4x().b[4][1]++;
       }
-      cov_15r2jlvhzv().s[60]++;
+      cov_29oddkis4x().s[60]++;
       return clipboard.writeText(board);
     },
     fileUploaded: function fileUploaded(res) {
-      cov_15r2jlvhzv().f[18]++;
-      var path = (cov_15r2jlvhzv().s[61]++, JSON.parse(res.xhr.response).path);
-      cov_15r2jlvhzv().s[62]++;
+      cov_29oddkis4x().f[18]++;
+      var path = (cov_29oddkis4x().s[61]++, JSON.parse(res.xhr.response).path);
+      cov_29oddkis4x().s[62]++;
       axios.patch("/api/tasks/".concat(this.currentTask.id), {
         image: path
       });
-      cov_15r2jlvhzv().s[63]++;
+      cov_29oddkis4x().s[63]++;
       this.$set(this.currentTask, 'image', path);
     },
     addImageId: function addImageId(file, xhr) {
-      cov_15r2jlvhzv().f[19]++;
-      cov_15r2jlvhzv().s[64]++;
+      cov_29oddkis4x().f[19]++;
+      cov_29oddkis4x().s[64]++;
       xhr.setRequestHeader('taskId', this.currentTask.id);
     },
     removeImage: function removeImage() {
-      cov_15r2jlvhzv().f[20]++;
-      cov_15r2jlvhzv().s[65]++;
+      cov_29oddkis4x().f[20]++;
+      cov_29oddkis4x().s[65]++;
       axios.patch("/api/tasks/".concat(this.currentTask.id), {
         image: null
       });
-      cov_15r2jlvhzv().s[66]++;
+      cov_29oddkis4x().s[66]++;
       this.currentTask.image = null;
     },
     sortList: function sortList() {
-      cov_15r2jlvhzv().f[21]++;
-      cov_15r2jlvhzv().s[67]++;
+      cov_29oddkis4x().f[21]++;
+      cov_29oddkis4x().s[67]++;
       this.currentBoard.lists.forEach(function (list, index) {
-        cov_15r2jlvhzv().f[22]++;
-        cov_15r2jlvhzv().s[68]++;
+        cov_29oddkis4x().f[22]++;
+        cov_29oddkis4x().s[68]++;
         list.order = index;
-        cov_15r2jlvhzv().s[69]++;
+        cov_29oddkis4x().s[69]++;
         axios.patch("/api/lists/".concat(list.id), {
           order: index
         });
       });
     },
     sortTask: function sortTask(evt) {
-      cov_15r2jlvhzv().f[23]++;
-      var from = (cov_15r2jlvhzv().s[70]++, parseInt(evt.from.parentElement.getAttribute('data-id')));
-      var to = (cov_15r2jlvhzv().s[71]++, parseInt(evt.to.parentElement.getAttribute('data-id')));
+      cov_29oddkis4x().f[23]++;
+      var from = (cov_29oddkis4x().s[70]++, parseInt(evt.from.parentElement.getAttribute('data-id')));
+      var to = (cov_29oddkis4x().s[71]++, parseInt(evt.to.parentElement.getAttribute('data-id')));
 
       // get old position + new position and use it with slice
       // changing 0 and 1 - just change slice (0, 1)
       // changing 2 and 4 - just change slice (2, 4)
       // ordering backwards - revert slice order
       // how to get indexes numbers?
-      cov_15r2jlvhzv().s[72]++;
+      cov_29oddkis4x().s[72]++;
       this.currentLists[from].forEach(function (task, index) {
-        cov_15r2jlvhzv().f[24]++;
-        cov_15r2jlvhzv().s[73]++;
+        cov_29oddkis4x().f[24]++;
+        cov_29oddkis4x().s[73]++;
         // change index in data store
         task.order = index;
-        cov_15r2jlvhzv().s[74]++;
+        cov_29oddkis4x().s[74]++;
         axios.patch("/api/tasks/".concat(task.id), {
           order: index
         });
@@ -3225,87 +3225,87 @@ Vue.component('board', {
 
       // get old list and do a full reorder
       // get new list and new position, order everything from slice start to slice down
-      cov_15r2jlvhzv().s[75]++;
+      cov_29oddkis4x().s[75]++;
       if (from !== to) {
-        cov_15r2jlvhzv().b[6][0]++;
-        cov_15r2jlvhzv().s[76]++;
+        cov_29oddkis4x().b[6][0]++;
+        cov_29oddkis4x().s[76]++;
         this.currentLists[to].forEach(function (task, index) {
-          cov_15r2jlvhzv().f[25]++;
-          cov_15r2jlvhzv().s[77]++;
+          cov_29oddkis4x().f[25]++;
+          cov_29oddkis4x().s[77]++;
           // change index in data store - keep this for full reorder of old list, but use currentLists[from]
           task.order = index;
 
           // send request to api
-          cov_15r2jlvhzv().s[78]++;
+          cov_29oddkis4x().s[78]++;
           axios.patch("/api/tasks/".concat(task.id), {
             order: index,
             listId: to
           });
         });
       } else {
-        cov_15r2jlvhzv().b[6][1]++;
+        cov_29oddkis4x().b[6][1]++;
       }
     },
     updateListName: function updateListName(list) {
-      cov_15r2jlvhzv().f[26]++;
-      cov_15r2jlvhzv().s[79]++;
+      cov_29oddkis4x().f[26]++;
+      cov_29oddkis4x().s[79]++;
       axios.patch("/api/lists/".concat(list.id), {
         title: list.title
       });
     },
     updateTaskName: function updateTaskName(task) {
-      cov_15r2jlvhzv().f[27]++;
-      cov_15r2jlvhzv().s[80]++;
+      cov_29oddkis4x().f[27]++;
+      cov_29oddkis4x().s[80]++;
       axios.patch("/api/tasks/".concat(task.id), {
         title: task.title
       });
     },
     updateBoardName: function updateBoardName() {
-      cov_15r2jlvhzv().f[28]++;
-      cov_15r2jlvhzv().s[81]++;
+      cov_29oddkis4x().f[28]++;
+      cov_29oddkis4x().s[81]++;
       axios.patch("/api/boards/".concat(this.currentBoard.id), {
         name: this.currentBoard.name
       });
     },
     addTask: function addTask(list) {
       var _this2 = this;
-      cov_15r2jlvhzv().f[29]++;
-      cov_15r2jlvhzv().s[82]++;
+      cov_29oddkis4x().f[29]++;
+      cov_29oddkis4x().s[82]++;
       if (!this.newTaskTitle) {
-        cov_15r2jlvhzv().b[7][0]++;
-        cov_15r2jlvhzv().s[83]++;
+        cov_29oddkis4x().b[7][0]++;
+        cov_29oddkis4x().s[83]++;
         this.newTaskInputActive = false;
-        cov_15r2jlvhzv().s[84]++;
+        cov_29oddkis4x().s[84]++;
         return;
       } else {
-        cov_15r2jlvhzv().b[7][1]++;
+        cov_29oddkis4x().b[7][1]++;
       }
-      var task = (cov_15r2jlvhzv().s[85]++, {
+      var task = (cov_29oddkis4x().s[85]++, {
         boardId: this.currentBoard.id,
         description: '',
         completed: false,
         listId: list.id,
         title: this.newTaskTitle
       });
-      cov_15r2jlvhzv().s[86]++;
+      cov_29oddkis4x().s[86]++;
       axios // send api request to create a task
       .post('/api/tasks', task).then(function () {
-        cov_15r2jlvhzv().f[30]++;
-        cov_15r2jlvhzv().s[87]++;
+        cov_29oddkis4x().f[30]++;
+        cov_29oddkis4x().s[87]++;
         _this2.newTaskTitle = '';
-        cov_15r2jlvhzv().s[88]++;
+        cov_29oddkis4x().s[88]++;
         _this2.newTaskInputActive = false;
       })["catch"](function () {
-        cov_15r2jlvhzv().f[31]++;
-        cov_15r2jlvhzv().s[89]++;
+        cov_29oddkis4x().f[31]++;
+        cov_29oddkis4x().s[89]++;
         // handle error, show error message
         _this2.$root.errorMessage.show = true;
-        cov_15r2jlvhzv().s[90]++;
+        cov_29oddkis4x().s[90]++;
         _this2.$root.errorMessage.text = 'There was an error creating task';
-        cov_15r2jlvhzv().s[91]++;
+        cov_29oddkis4x().s[91]++;
         setTimeout(function () {
-          cov_15r2jlvhzv().f[32]++;
-          cov_15r2jlvhzv().s[92]++;
+          cov_29oddkis4x().f[32]++;
+          cov_29oddkis4x().s[92]++;
           // hide error message after 4 seconds
           _this2.$root.errorMessage.show = false;
         }, 4000);
@@ -3313,126 +3313,126 @@ Vue.component('board', {
     },
     addList: function addList() {
       var _this3 = this;
-      cov_15r2jlvhzv().f[33]++;
-      cov_15r2jlvhzv().s[93]++;
+      cov_29oddkis4x().f[33]++;
+      cov_29oddkis4x().s[93]++;
       if (!this.newListTitle) {
-        cov_15r2jlvhzv().b[8][0]++;
-        cov_15r2jlvhzv().s[94]++;
+        cov_29oddkis4x().b[8][0]++;
+        cov_29oddkis4x().s[94]++;
         this.newListInputActive = false;
-        cov_15r2jlvhzv().s[95]++;
+        cov_29oddkis4x().s[95]++;
         return;
       } else {
-        cov_15r2jlvhzv().b[8][1]++;
+        cov_29oddkis4x().b[8][1]++;
       }
-      var list = (cov_15r2jlvhzv().s[96]++, {
+      var list = (cov_29oddkis4x().s[96]++, {
         boardId: this.currentBoard.id,
         title: this.newListTitle
       });
-      cov_15r2jlvhzv().s[97]++;
+      cov_29oddkis4x().s[97]++;
       axios // send api request to create a list
       .post('/api/lists', list).then(function () {
-        cov_15r2jlvhzv().f[34]++;
-        cov_15r2jlvhzv().s[98]++;
+        cov_29oddkis4x().f[34]++;
+        cov_29oddkis4x().s[98]++;
         _this3.newListTitle = '';
-        cov_15r2jlvhzv().s[99]++;
+        cov_29oddkis4x().s[99]++;
         _this3.newListInputActive = false;
       })["catch"](function () {
-        cov_15r2jlvhzv().f[35]++;
-        cov_15r2jlvhzv().s[100]++;
+        cov_29oddkis4x().f[35]++;
+        cov_29oddkis4x().s[100]++;
         // handle error, show error message
         _this3.$root.errorMessage.show = true;
-        cov_15r2jlvhzv().s[101]++;
+        cov_29oddkis4x().s[101]++;
         _this3.$root.errorMessage.text = 'There was an error creating list';
-        cov_15r2jlvhzv().s[102]++;
+        cov_29oddkis4x().s[102]++;
         setTimeout(function () {
-          cov_15r2jlvhzv().f[36]++;
-          cov_15r2jlvhzv().s[103]++;
+          cov_29oddkis4x().f[36]++;
+          cov_29oddkis4x().s[103]++;
           // hide error message after 4 seconds
           _this3.$root.errorMessage.show = false;
         }, 4000);
       });
     },
     cancelNewList: function cancelNewList() {
-      cov_15r2jlvhzv().f[37]++;
-      cov_15r2jlvhzv().s[104]++;
+      cov_29oddkis4x().f[37]++;
+      cov_29oddkis4x().s[104]++;
       this.newListTitle = '';
-      cov_15r2jlvhzv().s[105]++;
+      cov_29oddkis4x().s[105]++;
       this.newListInputActive = false;
     },
     // tasksList: function(list) {
     //   return this.currentBoard.tasks.filter(b => b.listId === list.id);
     // },
     editTask: function editTask(list, task) {
-      cov_15r2jlvhzv().f[38]++;
-      cov_15r2jlvhzv().s[106]++;
+      cov_29oddkis4x().f[38]++;
+      cov_29oddkis4x().s[106]++;
       this.showTaskModule = true;
-      cov_15r2jlvhzv().s[107]++;
+      cov_29oddkis4x().s[107]++;
       this.currentList = list;
-      cov_15r2jlvhzv().s[108]++;
+      cov_29oddkis4x().s[108]++;
       this.currentTask = task;
     },
     completeTask: function completeTask(task) {
-      cov_15r2jlvhzv().f[39]++;
-      cov_15r2jlvhzv().s[109]++;
+      cov_29oddkis4x().f[39]++;
+      cov_29oddkis4x().s[109]++;
       axios.patch("/api/tasks/".concat(task.id), {
         completed: task.completed
       });
     },
     closeTask: function closeTask() {
-      cov_15r2jlvhzv().f[40]++;
-      cov_15r2jlvhzv().s[110]++;
+      cov_29oddkis4x().f[40]++;
+      cov_29oddkis4x().s[110]++;
       this.currentTask = {};
     },
     deleteTask: function deleteTask(task) {
-      cov_15r2jlvhzv().f[41]++;
-      cov_15r2jlvhzv().s[111]++;
+      cov_29oddkis4x().f[41]++;
+      cov_29oddkis4x().s[111]++;
       this.showTaskModule = false;
-      cov_15r2jlvhzv().s[112]++;
+      cov_29oddkis4x().s[112]++;
       this.currentTask = {};
       // this.currentLists[task.listId] = this.currentLists[task.listId].filter(t => { return t.id !== task.id; });
-      cov_15r2jlvhzv().s[113]++;
+      cov_29oddkis4x().s[113]++;
       axios["delete"]("/api/tasks/".concat(task.id));
     },
     deleteList: function deleteList(list) {
-      cov_15r2jlvhzv().f[42]++;
-      cov_15r2jlvhzv().s[114]++;
+      cov_29oddkis4x().f[42]++;
+      cov_29oddkis4x().s[114]++;
       axios["delete"]("/api/lists/".concat(list.id));
     },
     deleteBoard: function deleteBoard(_deleteBoard) {
       var _this4 = this;
-      cov_15r2jlvhzv().f[43]++;
-      cov_15r2jlvhzv().s[115]++;
+      cov_29oddkis4x().f[43]++;
+      cov_29oddkis4x().s[115]++;
       axios["delete"]("/api/boards/".concat(_deleteBoard.id)).then(function () {
-        cov_15r2jlvhzv().f[44]++;
-        cov_15r2jlvhzv().s[116]++;
+        cov_29oddkis4x().f[44]++;
+        cov_29oddkis4x().s[116]++;
         _this4.$router.push('/');
       });
     },
     saveNewTaskDescription: function saveNewTaskDescription(task) {
-      cov_15r2jlvhzv().f[45]++;
-      cov_15r2jlvhzv().s[117]++;
+      cov_29oddkis4x().f[45]++;
+      cov_29oddkis4x().s[117]++;
       this.editTaskDescription = false;
-      cov_15r2jlvhzv().s[118]++;
+      cov_29oddkis4x().s[118]++;
       axios.patch("/api/tasks/".concat(task.id), {
         description: task.description
       });
     },
     saveNewTaskDeadline: function saveNewTaskDeadline(task) {
-      cov_15r2jlvhzv().f[46]++;
-      cov_15r2jlvhzv().s[119]++;
+      cov_29oddkis4x().f[46]++;
+      cov_29oddkis4x().s[119]++;
       axios.patch("/api/tasks/".concat(task.id), {
         deadline: task.deadline
       });
     },
     overdue: function overdue(task) {
-      cov_15r2jlvhzv().f[47]++;
-      cov_15r2jlvhzv().s[120]++;
-      if ((cov_15r2jlvhzv().b[10][0]++, task.deadline) && (cov_15r2jlvhzv().b[10][1]++, moment(task.deadline).diff(moment().startOf('day'), 'days') < 1)) {
-        cov_15r2jlvhzv().b[9][0]++;
-        cov_15r2jlvhzv().s[121]++;
+      cov_29oddkis4x().f[47]++;
+      cov_29oddkis4x().s[120]++;
+      if ((cov_29oddkis4x().b[10][0]++, task.deadline) && (cov_29oddkis4x().b[10][1]++, moment(task.deadline).diff(moment().startOf('day'), 'days') < 1)) {
+        cov_29oddkis4x().b[9][0]++;
+        cov_29oddkis4x().s[121]++;
         return 'overDue';
       } else {
-        cov_15r2jlvhzv().b[9][1]++;
+        cov_29oddkis4x().b[9][1]++;
       }
     }
   }
@@ -3441,13 +3441,13 @@ Vue.component('board', {
 },{"axios":9,"lodash":68,"moment":69,"socket.io-client":73,"vue":92,"vue-socket.io-extended":90,"vue2-dropzone":94,"vuedraggable":95}],2:[function(require,module,exports){
 "use strict";
 
-function cov_2q7l6evg88() {
-  var path = "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/collection.js";
-  var hash = "e02320c42b3753cc32b88a717422ccd954670d4c";
+function cov_1nljbktfwx() {
+  var path = "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/collection.js";
+  var hash = "91c3618bdac207d88d275aec4b001ccba0c4fe7a";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/collection.js",
+    path: "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/collection.js",
     statementMap: {
       "0": {
         start: {
@@ -4410,7 +4410,7 @@ function cov_2q7l6evg88() {
       "0": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "e02320c42b3753cc32b88a717422ccd954670d4c"
+    hash: "91c3618bdac207d88d275aec4b001ccba0c4fe7a"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -4419,28 +4419,28 @@ function cov_2q7l6evg88() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_2q7l6evg88 = function () {
+    cov_1nljbktfwx = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_2q7l6evg88();
+cov_1nljbktfwx();
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
-var Vue = (cov_2q7l6evg88().s[0]++, require('vue'));
-var axios = (cov_2q7l6evg88().s[1]++, require('axios'));
-var VueSocketIOExt = (cov_2q7l6evg88().s[2]++, require('vue-socket.io-extended'));
-var io = (cov_2q7l6evg88().s[3]++, require('socket.io-client'));
-var socket = (cov_2q7l6evg88().s[4]++, io('http://localhost:3000'));
-var Navbar = (cov_2q7l6evg88().s[5]++, require('./navbar'));
-cov_2q7l6evg88().s[6]++;
+var Vue = (cov_1nljbktfwx().s[0]++, require('vue'));
+var axios = (cov_1nljbktfwx().s[1]++, require('axios'));
+var VueSocketIOExt = (cov_1nljbktfwx().s[2]++, require('vue-socket.io-extended'));
+var io = (cov_1nljbktfwx().s[3]++, require('socket.io-client'));
+var socket = (cov_1nljbktfwx().s[4]++, io('http://localhost:3000'));
+var Navbar = (cov_1nljbktfwx().s[5]++, require('./navbar'));
+cov_1nljbktfwx().s[6]++;
 Vue.use(VueSocketIOExt, socket);
-cov_2q7l6evg88().s[7]++;
+cov_1nljbktfwx().s[7]++;
 Vue.component('board-collection', {
   components: {
     'Navbar': Navbar
@@ -4448,40 +4448,40 @@ Vue.component('board-collection', {
   template: '#trello-board-collection',
   sockets: {
     boardCreated: function boardCreated(message) {
-      cov_2q7l6evg88().f[0]++;
-      cov_2q7l6evg88().s[8]++;
+      cov_1nljbktfwx().f[0]++;
+      cov_1nljbktfwx().s[8]++;
       this.boards.push(message);
     },
     boardsState: function boardsState(message) {
-      cov_2q7l6evg88().f[1]++;
-      cov_2q7l6evg88().s[9]++;
+      cov_1nljbktfwx().f[1]++;
+      cov_1nljbktfwx().s[9]++;
       this.boards = message;
     },
     boardDeleted: function boardDeleted(id) {
-      cov_2q7l6evg88().f[2]++;
-      var deleted = (cov_2q7l6evg88().s[10]++, this.boards.findIndex(function (board) {
-        cov_2q7l6evg88().f[3]++;
-        cov_2q7l6evg88().s[11]++;
+      cov_1nljbktfwx().f[2]++;
+      var deleted = (cov_1nljbktfwx().s[10]++, this.boards.findIndex(function (board) {
+        cov_1nljbktfwx().f[3]++;
+        cov_1nljbktfwx().s[11]++;
         return board.id === id;
       }));
-      cov_2q7l6evg88().s[12]++;
+      cov_1nljbktfwx().s[12]++;
       this.boards.splice(deleted, 1);
     },
     boardUpdate: function boardUpdate(id, message) {
-      cov_2q7l6evg88().f[4]++;
-      var updated = (cov_2q7l6evg88().s[13]++, this.boards.findIndex(function (board) {
-        cov_2q7l6evg88().f[5]++;
-        cov_2q7l6evg88().s[14]++;
+      cov_1nljbktfwx().f[4]++;
+      var updated = (cov_1nljbktfwx().s[13]++, this.boards.findIndex(function (board) {
+        cov_1nljbktfwx().f[5]++;
+        cov_1nljbktfwx().s[14]++;
         return board.id === id;
       }));
-      var board = (cov_2q7l6evg88().s[15]++, this.boards[updated]);
-      cov_2q7l6evg88().s[16]++;
+      var board = (cov_1nljbktfwx().s[15]++, this.boards[updated]);
+      cov_1nljbktfwx().s[16]++;
       this.$set(this.boards, [updated], _objectSpread(_objectSpread({}, board), message));
     }
   },
   data: function data() {
-    cov_2q7l6evg88().f[6]++;
-    cov_2q7l6evg88().s[17]++;
+    cov_1nljbktfwx().f[6]++;
+    cov_1nljbktfwx().s[17]++;
     return {
       showByIndex: null,
       loading: true,
@@ -4492,87 +4492,87 @@ Vue.component('board-collection', {
   },
   created: function created() {
     var _this = this;
-    cov_2q7l6evg88().f[7]++;
-    cov_2q7l6evg88().s[18]++;
+    cov_1nljbktfwx().f[7]++;
+    cov_1nljbktfwx().s[18]++;
     axios.get('/api/boards').then(function (r) {
-      cov_2q7l6evg88().f[8]++;
-      cov_2q7l6evg88().s[19]++;
+      cov_1nljbktfwx().f[8]++;
+      cov_1nljbktfwx().s[19]++;
       return r.data;
     }).then(function (boards) {
-      cov_2q7l6evg88().f[9]++;
-      cov_2q7l6evg88().s[20]++;
+      cov_1nljbktfwx().f[9]++;
+      cov_1nljbktfwx().s[20]++;
       _this.loading = false;
-      cov_2q7l6evg88().s[21]++;
+      cov_1nljbktfwx().s[21]++;
       _this.boards = boards;
     });
   },
   methods: {
     createNewBoard: function createNewBoard() {
       var _this2 = this;
-      cov_2q7l6evg88().f[10]++;
-      cov_2q7l6evg88().s[22]++;
+      cov_1nljbktfwx().f[10]++;
+      cov_1nljbktfwx().s[22]++;
       if (!this.newBoardTitle) {
-        cov_2q7l6evg88().b[0][0]++;
-        cov_2q7l6evg88().s[23]++;
+        cov_1nljbktfwx().b[0][0]++;
+        cov_1nljbktfwx().s[23]++;
         return;
       } else {
-        cov_2q7l6evg88().b[0][1]++;
+        cov_1nljbktfwx().b[0][1]++;
       }
       // send api request to create a board
-      cov_2q7l6evg88().s[24]++;
+      cov_1nljbktfwx().s[24]++;
       axios.post('/api/boards', {
         name: this.newBoardTitle
       }).then(function (r) {
-        cov_2q7l6evg88().f[11]++;
-        cov_2q7l6evg88().s[25]++;
+        cov_1nljbktfwx().f[11]++;
+        cov_1nljbktfwx().s[25]++;
         _this2.boards.push(r.data);
-        cov_2q7l6evg88().s[26]++;
+        cov_1nljbktfwx().s[26]++;
         _this2.$router.push("/board/".concat(r.data.id));
       })["catch"](function () {
-        cov_2q7l6evg88().f[12]++;
-        cov_2q7l6evg88().s[27]++;
+        cov_1nljbktfwx().f[12]++;
+        cov_1nljbktfwx().s[27]++;
         // handle error, show error message
         _this2.$root.errorMessage.show = true;
-        cov_2q7l6evg88().s[28]++;
+        cov_1nljbktfwx().s[28]++;
         _this2.$root.errorMessage.text = 'There was an error creating board';
-        cov_2q7l6evg88().s[29]++;
+        cov_1nljbktfwx().s[29]++;
         setTimeout(function () {
-          cov_2q7l6evg88().f[13]++;
-          cov_2q7l6evg88().s[30]++;
+          cov_1nljbktfwx().f[13]++;
+          cov_1nljbktfwx().s[30]++;
           // hide error message after 4 seconds
           _this2.$root.errorMessage.show = false;
         }, 4000);
       });
-      cov_2q7l6evg88().s[31]++;
+      cov_1nljbktfwx().s[31]++;
       this.newBoardTitle = '';
     },
     toggleNewBoardInput: function toggleNewBoardInput(flag) {
-      cov_2q7l6evg88().f[14]++;
-      cov_2q7l6evg88().s[32]++;
+      cov_1nljbktfwx().f[14]++;
+      cov_1nljbktfwx().s[32]++;
       this.newBoardInputActive = flag;
     },
     updateBoardStarred: function updateBoardStarred(board) {
-      cov_2q7l6evg88().f[15]++;
-      var flag = (cov_2q7l6evg88().s[33]++, !board.starred);
-      cov_2q7l6evg88().s[34]++;
+      cov_1nljbktfwx().f[15]++;
+      var flag = (cov_1nljbktfwx().s[33]++, !board.starred);
+      cov_1nljbktfwx().s[34]++;
       axios.patch("/api/boards/".concat(board.id), {
         starred: flag
       });
-      cov_2q7l6evg88().s[35]++;
+      cov_1nljbktfwx().s[35]++;
       this.boards.find(function (b) {
-        cov_2q7l6evg88().f[16]++;
-        cov_2q7l6evg88().s[36]++;
+        cov_1nljbktfwx().f[16]++;
+        cov_1nljbktfwx().s[36]++;
         return b.id === board.id;
       }).starred = flag;
     },
     starred: function starred(boards) {
-      cov_2q7l6evg88().f[17]++;
-      var starredBoards = (cov_2q7l6evg88().s[37]++, boards.filter(function (b) {
-        cov_2q7l6evg88().f[18]++;
-        cov_2q7l6evg88().s[38]++;
+      cov_1nljbktfwx().f[17]++;
+      var starredBoards = (cov_1nljbktfwx().s[37]++, boards.filter(function (b) {
+        cov_1nljbktfwx().f[18]++;
+        cov_1nljbktfwx().s[38]++;
         return b.starred === true;
       }));
-      cov_2q7l6evg88().s[39]++;
+      cov_1nljbktfwx().s[39]++;
       return starredBoards;
     }
   }
@@ -4581,13 +4581,13 @@ Vue.component('board-collection', {
 },{"./navbar":4,"axios":9,"socket.io-client":73,"vue":92,"vue-socket.io-extended":90}],3:[function(require,module,exports){
 "use strict";
 
-function cov_xaup305e1() {
-  var path = "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/login.js";
-  var hash = "4a4f03a0e34d4572b1d39a727b3e28939479bbf8";
+function cov_2n6tjlc958() {
+  var path = "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/login.js";
+  var hash = "14e3db2d037e4ee9a255bef48be48877c4c5bdbc";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/login.js",
+    path: "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/login.js",
     statementMap: {
       "0": {
         start: {
@@ -5483,7 +5483,7 @@ function cov_xaup305e1() {
       "0": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "4a4f03a0e34d4572b1d39a727b3e28939479bbf8"
+    hash: "14e3db2d037e4ee9a255bef48be48877c4c5bdbc"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -5492,27 +5492,27 @@ function cov_xaup305e1() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_xaup305e1 = function () {
+    cov_2n6tjlc958 = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_xaup305e1();
+cov_2n6tjlc958();
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-var Vue = (cov_xaup305e1().s[0]++, require('vue'));
-var axios = (cov_xaup305e1().s[1]++, require('axios'));
-cov_xaup305e1().s[2]++;
+var Vue = (cov_2n6tjlc958().s[0]++, require('vue'));
+var axios = (cov_2n6tjlc958().s[1]++, require('axios'));
+cov_2n6tjlc958().s[2]++;
 Vue.component('Login', {
   template: '#login',
   data: function data() {
-    cov_xaup305e1().f[0]++;
-    cov_xaup305e1().s[3]++;
+    cov_2n6tjlc958().f[0]++;
+    cov_2n6tjlc958().s[3]++;
     return {
       signupCardActive: false,
       loginEmail: '',
@@ -5527,99 +5527,99 @@ Vue.component('Login', {
   },
   created: function created() {
     var _this = this;
-    cov_xaup305e1().f[1]++;
-    var parsedCookies = (cov_xaup305e1().s[4]++, document.cookie.split('; ').reduce(function (prev, current) {
-      cov_xaup305e1().f[2]++;
-      var _ref = (cov_xaup305e1().s[5]++, current.split('=')),
+    cov_2n6tjlc958().f[1]++;
+    var parsedCookies = (cov_2n6tjlc958().s[4]++, document.cookie.split('; ').reduce(function (prev, current) {
+      cov_2n6tjlc958().f[2]++;
+      var _ref = (cov_2n6tjlc958().s[5]++, current.split('=')),
         _ref2 = _slicedToArray(_ref, 2),
         name = _ref2[0],
         value = _ref2[1];
-      cov_xaup305e1().s[6]++;
+      cov_2n6tjlc958().s[6]++;
       prev[name] = value;
-      cov_xaup305e1().s[7]++;
+      cov_2n6tjlc958().s[7]++;
       return prev;
     }, {}));
-    cov_xaup305e1().s[8]++;
+    cov_2n6tjlc958().s[8]++;
     if (parsedCookies['trello_token']) {
-      cov_xaup305e1().b[0][0]++;
-      cov_xaup305e1().s[9]++;
+      cov_2n6tjlc958().b[0][0]++;
+      cov_2n6tjlc958().s[9]++;
       axios.defaults.headers.common['Authorization'] = "Bearer ".concat(parsedCookies['trello_token']);
-      cov_xaup305e1().s[10]++;
+      cov_2n6tjlc958().s[10]++;
       axios.get('/api/users').then(function (r) {
-        cov_xaup305e1().f[3]++;
-        cov_xaup305e1().s[11]++;
+        cov_2n6tjlc958().f[3]++;
+        cov_2n6tjlc958().s[11]++;
         _this.$root.loggedIn.active = true;
-        cov_xaup305e1().s[12]++;
+        cov_2n6tjlc958().s[12]++;
         _this.$root.loggedIn.email = r.data.user.email;
       })["catch"](function () {
-        cov_xaup305e1().f[4]++;
-        cov_xaup305e1().s[13]++;
+        cov_2n6tjlc958().f[4]++;
+        cov_2n6tjlc958().s[13]++;
         document.cookie = 'trello_token=;expires=Thu, 01 Jan 1970 00:00:00 GMT';
       });
     } else {
-      cov_xaup305e1().b[0][1]++;
+      cov_2n6tjlc958().b[0][1]++;
     }
   },
   methods: {
     closeLogin: function closeLogin() {
-      cov_xaup305e1().f[5]++;
-      cov_xaup305e1().s[14]++;
+      cov_2n6tjlc958().f[5]++;
+      cov_2n6tjlc958().s[14]++;
       this.$root.showLoginModule = false;
-      cov_xaup305e1().s[15]++;
+      cov_2n6tjlc958().s[15]++;
       this.loginEmail = '';
-      cov_xaup305e1().s[16]++;
+      cov_2n6tjlc958().s[16]++;
       this.loginPassword = '';
-      cov_xaup305e1().s[17]++;
+      cov_2n6tjlc958().s[17]++;
       this.signupEmail = '';
-      cov_xaup305e1().s[18]++;
+      cov_2n6tjlc958().s[18]++;
       this.signupPassword = '';
     },
     logSignSwitch: function logSignSwitch() {
-      cov_xaup305e1().f[6]++;
-      cov_xaup305e1().s[19]++;
+      cov_2n6tjlc958().f[6]++;
+      cov_2n6tjlc958().s[19]++;
       this.signupCardActive = !this.signupCardActive;
-      cov_xaup305e1().s[20]++;
+      cov_2n6tjlc958().s[20]++;
       this.loginCardActive = !this.loginCardActive;
     },
     login: function login() {
       var _this2 = this;
-      cov_xaup305e1().f[7]++;
-      cov_xaup305e1().s[21]++;
+      cov_2n6tjlc958().f[7]++;
+      cov_2n6tjlc958().s[21]++;
       axios.post('/login', {
         email: this.loginEmail,
         password: this.loginPassword
       }).then(function (r) {
-        cov_xaup305e1().f[8]++;
-        cov_xaup305e1().s[22]++;
+        cov_2n6tjlc958().f[8]++;
+        cov_2n6tjlc958().s[22]++;
         axios.defaults.headers.common['Authorization'] = "Bearer ".concat(r.data.accessToken);
-        cov_xaup305e1().s[23]++;
+        cov_2n6tjlc958().s[23]++;
         document.cookie = "trello_token=".concat(r.data.accessToken);
-        cov_xaup305e1().s[24]++;
+        cov_2n6tjlc958().s[24]++;
         _this2.$root.loggedIn.email = _this2.loginEmail;
-        cov_xaup305e1().s[25]++;
+        cov_2n6tjlc958().s[25]++;
         _this2.$root.showLoginModule = false;
-        cov_xaup305e1().s[26]++;
+        cov_2n6tjlc958().s[26]++;
         _this2.loginCardActive = false;
-        cov_xaup305e1().s[27]++;
+        cov_2n6tjlc958().s[27]++;
         _this2.signupCardActive = false;
-        cov_xaup305e1().s[28]++;
+        cov_2n6tjlc958().s[28]++;
         _this2.$router.go();
       })["catch"](function (error) {
-        cov_xaup305e1().f[9]++;
-        cov_xaup305e1().s[29]++;
+        cov_2n6tjlc958().f[9]++;
+        cov_2n6tjlc958().s[29]++;
         _this2.errorMessage = error.response.data;
-        cov_xaup305e1().s[30]++;
+        cov_2n6tjlc958().s[30]++;
         setTimeout(function () {
-          cov_xaup305e1().f[10]++;
-          cov_xaup305e1().s[31]++;
+          cov_2n6tjlc958().f[10]++;
+          cov_2n6tjlc958().s[31]++;
           _this2.errorMessage = null;
         }, 5000);
       });
     },
     signup: function signup() {
       var _this3 = this;
-      cov_xaup305e1().f[11]++;
-      cov_xaup305e1().s[32]++;
+      cov_2n6tjlc958().f[11]++;
+      cov_2n6tjlc958().s[32]++;
       axios({
         method: 'POST',
         url: '/signup',
@@ -5628,29 +5628,29 @@ Vue.component('Login', {
           password: this.signupPassword
         }
       }).then(function (r) {
-        cov_xaup305e1().f[12]++;
-        cov_xaup305e1().s[33]++;
+        cov_2n6tjlc958().f[12]++;
+        cov_2n6tjlc958().s[33]++;
         axios.defaults.headers.common['Authorization'] = "Bearer ".concat(r.data.accessToken);
-        cov_xaup305e1().s[34]++;
+        cov_2n6tjlc958().s[34]++;
         document.cookie = "trello_token=".concat(r.data.accessToken);
-        cov_xaup305e1().s[35]++;
+        cov_2n6tjlc958().s[35]++;
         _this3.$router.go();
-        cov_xaup305e1().s[36]++;
+        cov_2n6tjlc958().s[36]++;
         _this3.$root.loggedIn.email = _this3.signupEmail;
-        cov_xaup305e1().s[37]++;
+        cov_2n6tjlc958().s[37]++;
         _this3.$root.showLoginModule = false;
-        cov_xaup305e1().s[38]++;
+        cov_2n6tjlc958().s[38]++;
         _this3.loginCardActive = false;
-        cov_xaup305e1().s[39]++;
+        cov_2n6tjlc958().s[39]++;
         _this3.signupCardActive = false;
       })["catch"](function (error) {
-        cov_xaup305e1().f[13]++;
-        cov_xaup305e1().s[40]++;
+        cov_2n6tjlc958().f[13]++;
+        cov_2n6tjlc958().s[40]++;
         _this3.errorMessage = error.response.data;
-        cov_xaup305e1().s[41]++;
+        cov_2n6tjlc958().s[41]++;
         setTimeout(function () {
-          cov_xaup305e1().f[14]++;
-          cov_xaup305e1().s[42]++;
+          cov_2n6tjlc958().f[14]++;
+          cov_2n6tjlc958().s[42]++;
           _this3.errorMessage = null;
         }, 5000);
       });
@@ -5661,13 +5661,13 @@ Vue.component('Login', {
 },{"axios":9,"vue":92}],4:[function(require,module,exports){
 "use strict";
 
-function cov_16nkkahjdb() {
-  var path = "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/navbar.js";
-  var hash = "4c0a60b670726fa53e67c4174ca4a4434051a62a";
+function cov_jmlyzvrc7() {
+  var path = "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/navbar.js";
+  var hash = "6c282bf8edb4c1b36197f120294d56cfe855b4e3";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/components/navbar.js",
+    path: "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/components/navbar.js",
     statementMap: {
       "0": {
         start: {
@@ -5842,7 +5842,7 @@ function cov_16nkkahjdb() {
     },
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "4c0a60b670726fa53e67c4174ca4a4434051a62a"
+    hash: "6c282bf8edb4c1b36197f120294d56cfe855b4e3"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -5851,42 +5851,42 @@ function cov_16nkkahjdb() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_16nkkahjdb = function () {
+    cov_jmlyzvrc7 = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_16nkkahjdb();
-var Vue = (cov_16nkkahjdb().s[0]++, require('vue'));
-var Login = (cov_16nkkahjdb().s[1]++, require('./login'));
-cov_16nkkahjdb().s[2]++;
+cov_jmlyzvrc7();
+var Vue = (cov_jmlyzvrc7().s[0]++, require('vue'));
+var Login = (cov_jmlyzvrc7().s[1]++, require('./login'));
+cov_jmlyzvrc7().s[2]++;
 Vue.component('Navbar', {
   components: {
     'Login': Login
   },
   template: '#navbar',
   data: function data() {
-    cov_16nkkahjdb().f[0]++;
-    cov_16nkkahjdb().s[3]++;
+    cov_jmlyzvrc7().f[0]++;
+    cov_jmlyzvrc7().s[3]++;
     return {
       loginDropdown: false
     };
   },
   methods: {
     openLogin: function openLogin() {
-      cov_16nkkahjdb().f[1]++;
-      cov_16nkkahjdb().s[4]++;
+      cov_jmlyzvrc7().f[1]++;
+      cov_jmlyzvrc7().s[4]++;
       this.$root.showLoginModule = true;
     },
     logout: function logout() {
-      cov_16nkkahjdb().f[2]++;
-      cov_16nkkahjdb().s[5]++;
+      cov_jmlyzvrc7().f[2]++;
+      cov_jmlyzvrc7().s[5]++;
       this.$root.loggedIn.active = false;
       // axios.defaults.headers.common['Authorization'] = '';
-      cov_16nkkahjdb().s[6]++;
+      cov_jmlyzvrc7().s[6]++;
       document.cookie = 'trello_token=;expires=Thu, 01 Jan 1970 00:00:00 GMT';
-      cov_16nkkahjdb().s[7]++;
+      cov_jmlyzvrc7().s[7]++;
       document.location.href = '/';
     }
   }
@@ -5895,13 +5895,13 @@ Vue.component('Navbar', {
 },{"./login":3,"vue":92}],5:[function(require,module,exports){
 "use strict";
 
-function cov_k07cgpxd7() {
-  var path = "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/directives/vue-focus.js";
-  var hash = "ea524680a27d5c331280b78c85911015d8516397";
+function cov_724wbhd7c() {
+  var path = "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/directives/vue-focus.js";
+  var hash = "ef08f766399692fd299f4bfa04d179276a13a178";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/directives/vue-focus.js",
+    path: "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/directives/vue-focus.js",
     statementMap: {
       "0": {
         start: {
@@ -6043,7 +6043,7 @@ function cov_k07cgpxd7() {
     },
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "ea524680a27d5c331280b78c85911015d8516397"
+    hash: "ef08f766399692fd299f4bfa04d179276a13a178"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -6052,27 +6052,27 @@ function cov_k07cgpxd7() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_k07cgpxd7 = function () {
+    cov_724wbhd7c = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_k07cgpxd7();
-var Vue = (cov_k07cgpxd7().s[0]++, require('vue'));
-cov_k07cgpxd7().s[1]++;
+cov_724wbhd7c();
+var Vue = (cov_724wbhd7c().s[0]++, require('vue'));
+cov_724wbhd7c().s[1]++;
 Vue.directive('focus', {
   inserted: function inserted(el) {
-    cov_k07cgpxd7().f[0]++;
-    cov_k07cgpxd7().s[2]++;
+    cov_724wbhd7c().f[0]++;
+    cov_724wbhd7c().s[2]++;
     el.focus();
   },
   update: function update(el) {
-    cov_k07cgpxd7().f[1]++;
-    cov_k07cgpxd7().s[3]++;
+    cov_724wbhd7c().f[1]++;
+    cov_724wbhd7c().s[3]++;
     Vue.nextTick(function () {
-      cov_k07cgpxd7().f[2]++;
-      cov_k07cgpxd7().s[4]++;
+      cov_724wbhd7c().f[2]++;
+      cov_724wbhd7c().s[4]++;
       el.focus();
     });
   }
@@ -6081,13 +6081,13 @@ Vue.directive('focus', {
 },{"vue":92}],6:[function(require,module,exports){
 "use strict";
 
-function cov_1d6t3gez83() {
-  var path = "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/trello/main.js";
-  var hash = "b9c1cce9a15fbbf3d094cec1abf48c04c65744fa";
+function cov_1mnpkwkqus() {
+  var path = "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/trello/main.js";
+  var hash = "21efe03abbb574f90add31a97dcd1e57fac4c482";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/ksniezek/playwright-with-trello-app/playwright_typescript_upskill/assets/js/trello/main.js",
+    path: "/Users/idluhosh/PGS/playwright_typescript_upskill/assets/js/trello/main.js",
     statementMap: {
       "0": {
         start: {
@@ -6483,7 +6483,7 @@ function cov_1d6t3gez83() {
     },
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "b9c1cce9a15fbbf3d094cec1abf48c04c65744fa"
+    hash: "21efe03abbb574f90add31a97dcd1e57fac4c482"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -6492,29 +6492,29 @@ function cov_1d6t3gez83() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_1d6t3gez83 = function () {
+    cov_1mnpkwkqus = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_1d6t3gez83();
-var axios = (cov_1d6t3gez83().s[0]++, require('axios'));
-var Vue = (cov_1d6t3gez83().s[1]++, require('vue'));
-var VueRouter = (cov_1d6t3gez83().s[2]++, require('vue-router'));
-cov_1d6t3gez83().s[3]++;
+cov_1mnpkwkqus();
+var axios = (cov_1mnpkwkqus().s[0]++, require('axios'));
+var Vue = (cov_1mnpkwkqus().s[1]++, require('vue'));
+var VueRouter = (cov_1mnpkwkqus().s[2]++, require('vue-router'));
+cov_1mnpkwkqus().s[3]++;
 Vue.use(VueRouter);
-cov_1d6t3gez83().s[4]++;
+cov_1mnpkwkqus().s[4]++;
 Vue.use(require('vue-shortkey'));
-cov_1d6t3gez83().s[5]++;
+cov_1mnpkwkqus().s[5]++;
 require('vuedraggable');
-cov_1d6t3gez83().s[6]++;
+cov_1mnpkwkqus().s[6]++;
 require('../directives/vue-focus.js');
-cov_1d6t3gez83().s[7]++;
+cov_1mnpkwkqus().s[7]++;
 require('../components/collection.js');
-cov_1d6t3gez83().s[8]++;
+cov_1mnpkwkqus().s[8]++;
 require('../components/board.js');
-var router = (cov_1d6t3gez83().s[9]++, new VueRouter({
+var router = (cov_1mnpkwkqus().s[9]++, new VueRouter({
   mode: 'history',
   base: window.location.pathName,
   routes: [{
@@ -6530,10 +6530,10 @@ var router = (cov_1d6t3gez83().s[9]++, new VueRouter({
     component: Vue.component('board')
   }]
 }));
-var app = (cov_1d6t3gez83().s[10]++, new Vue({
+var app = (cov_1mnpkwkqus().s[10]++, new Vue({
   data: function data() {
-    cov_1d6t3gez83().f[0]++;
-    cov_1d6t3gez83().s[11]++;
+    cov_1mnpkwkqus().f[0]++;
+    cov_1mnpkwkqus().s[11]++;
     return {
       errorMessage: {
         show: false,
@@ -6549,39 +6549,39 @@ var app = (cov_1d6t3gez83().s[10]++, new Vue({
   },
   methods: {
     resetAll: function resetAll() {
-      cov_1d6t3gez83().f[1]++;
-      cov_1d6t3gez83().s[12]++;
+      cov_1mnpkwkqus().f[1]++;
+      cov_1mnpkwkqus().s[12]++;
       axios.post('/api/reset');
     },
     resetBoards: function resetBoards() {
-      cov_1d6t3gez83().f[2]++;
-      cov_1d6t3gez83().s[13]++;
+      cov_1mnpkwkqus().f[2]++;
+      cov_1mnpkwkqus().s[13]++;
       axios["delete"]('/api/boards');
     },
     resetLists: function resetLists() {
-      cov_1d6t3gez83().f[3]++;
-      cov_1d6t3gez83().s[14]++;
+      cov_1mnpkwkqus().f[3]++;
+      cov_1mnpkwkqus().s[14]++;
       axios["delete"]('/api/lists');
     },
     resetTasks: function resetTasks() {
-      cov_1d6t3gez83().f[4]++;
-      cov_1d6t3gez83().s[15]++;
+      cov_1mnpkwkqus().f[4]++;
+      cov_1mnpkwkqus().s[15]++;
       axios["delete"]('/api/tasks');
     },
     resetUsers: function resetUsers() {
-      cov_1d6t3gez83().f[5]++;
-      cov_1d6t3gez83().s[16]++;
+      cov_1mnpkwkqus().f[5]++;
+      cov_1mnpkwkqus().s[16]++;
       axios["delete"]('/api/users');
     },
     toggleTools: function toggleTools() {
-      cov_1d6t3gez83().f[6]++;
-      cov_1d6t3gez83().s[17]++;
+      cov_1mnpkwkqus().f[6]++;
+      cov_1mnpkwkqus().s[17]++;
       this.tools = !this.tools;
     }
   },
   router: router
 }).$mount('#trello-app'));
-cov_1d6t3gez83().s[18]++;
+cov_1mnpkwkqus().s[18]++;
 window.app = app;
 
 },{"../components/board.js":1,"../components/collection.js":2,"../directives/vue-focus.js":5,"axios":9,"vue":92,"vue-router":88,"vue-shortkey":89,"vuedraggable":95}],7:[function(require,module,exports){
