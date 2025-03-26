@@ -2,7 +2,6 @@ import { Page } from '@playwright/test';
 import { Navbar } from './modules/navbar';
 
 export class BasePage {
-  
   readonly page: Page;
   navbar: Navbar;
 
